@@ -9,6 +9,4 @@ headers = {}
 
 response = requests.request("GET", url, headers=headers, data=payload)
 
-variable = "Marisol Quintero"
-
 print(response.text)
