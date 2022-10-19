@@ -1,9 +1,9 @@
 import requests
 
-API = "https://www.lostarkmarket.online/api/export-market-live/:region?ids=101301,101011"
+url = "https://www.lostarkmarket.online/api/export-market-live/region?ids=101301,101011"
 
 payload={}
-headers = {}
+headers = { }
 
 response = requests.request("GET", url, headers=headers, data=payload)
 
